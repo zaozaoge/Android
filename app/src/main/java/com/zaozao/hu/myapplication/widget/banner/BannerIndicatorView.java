@@ -62,6 +62,8 @@ public class BannerIndicatorView extends View {
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
         //再把原来的bitmap绘制到新的圆上面
         canvas.drawBitmap(bitmap, 0, 0, paint);
+        //释放bitmap内存
+        bitmap.recycle();
         return circleBitmap;
     }
 
