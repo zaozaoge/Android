@@ -18,4 +18,62 @@
         app:heightProportion="3"
         app:layout_constraintTop_toTopOf="parent"
         app:widthProportion="8" />
+
+    <com.zaozao.hu.myapplication.widget.MyTextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:MyTextView_Text="@string/app_picker_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner_vp" />
+
+
+    <com.zaozao.hu.myapplication.widget.HealthStandardView
+        android:id="@+id/healthView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:bottomText_top_margin="8dp"
+        app:circle_radius="5dp"
+        app:circle_stroke="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/myTextView"
+        app:progressbar_height="15dp"
+        app:sortNumber="3"
+        app:vertical_line_bottom_margin="3dp"
+        app:vertical_line_height="20dp" />
+
+    <com.zaozao.hu.myapplication.widget.HealthStandardView
+        android:id="@+id/healthView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:bottomText_top_margin="8dp"
+        app:circle_radius="5dp"
+        app:circle_stroke="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/healthView0"
+        app:progressbar_height="15dp"
+        app:sortNumber="4"
+        app:vertical_line_bottom_margin="10dp"
+        app:vertical_line_height="20dp" />
+
+    <com.zaozao.hu.myapplication.widget.HealthStandardView
+        android:id="@+id/healthView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:bottomText_top_margin="8dp"
+        app:circle_radius="5dp"
+        app:circle_stroke="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/healthView"
+        app:progressbar_height="15dp"
+        app:sortNumber="5"
+        app:vertical_line_bottom_margin="3dp"
+        app:vertical_line_height="20dp" />
 </android.support.constraint.ConstraintLayout>

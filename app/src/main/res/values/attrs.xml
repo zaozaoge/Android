@@ -31,4 +31,48 @@
         <attr name="widthProportion" format="float" />
         <attr name="heightProportion" format="float" />
     </declare-styleable>
+
+
+    <declare-styleable name="MyTextView">
+        <attr name="MyTextView_Text" format="string" />
+        <attr name="MyTextView_Size" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HealthStandardView">
+        <!--顶部圆形指示器半径-->
+        <attr name="circle_radius" format="dimension" />
+        <!--顶部圆形指示器轮廓宽度-->
+        <attr name="circle_stroke" format="dimension" />
+        <!--顶部圆形指示器下面的竖线长度-->
+        <attr name="vertical_line_height" format="dimension" />
+        <!--顶部圆形指示器下面的竖线宽度-->
+        <attr name="vertical_line_width" format="dimension" />
+        <!--顶部圆形指示器下面的竖线与圆之间的间距-->
+        <attr name="vertical_line_top_margin" format="dimension" />
+        <!--顶部圆形指示器下面的竖线与矩形进度条之间的间距-->
+        <attr name="vertical_line_bottom_margin" format="dimension" />
+        <!--底部文字到矩形进度条之间的间距-->
+        <attr name="bottomText_top_margin" format="dimension" />
+        <!--底部文字大小-->
+        <attr name="bottomText_size" format="dimension" />
+        <!--底部文字颜色-->
+        <attr name="bottomText_color" format="color|reference" />
+
+        <!--底部矩形进度条的高度-->
+        <attr name="progressbar_height" format="dimension" />
+
+        <!--顶部的三个刻度值-->
+        <attr name="scaleOne" format="string|reference" />
+
+        <!--底部进度每一段的长度值-->
+        <attr name="perScaleWidth" format="dimension" />
+        <!--一共分多少个类型-->
+        <attr name="sortNumber" format="integer" />
+
+
+        <!--刻度条圆角值-->
+        <attr name="progressbar_radius" format="dimension"/>
+    </declare-styleable>
+
 </resources>
